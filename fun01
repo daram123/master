@@ -1,0 +1,6 @@
+#!/bin/bash
+echo "Hello Bash Shell.."
+for i in $(seq 1 10);
+do
+  echo "The loop is in $i"
+done
